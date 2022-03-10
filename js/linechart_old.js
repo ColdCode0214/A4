@@ -1,4 +1,4 @@
-// set the dimensions and margins of the graph
+/*// set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 660 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -118,4 +118,4 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       )
     });
 
-})
+})*/
