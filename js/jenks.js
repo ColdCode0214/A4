@@ -1,4 +1,4 @@
-// # [Jenks natural breaks optimization](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization)
+/*// # [Jenks natural breaks optimization](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization)
 //
 // Implementations: [1](http://danieljlewis.org/files/2010/06/Jenks.pdf) (python),
 // [2](https://github.com/vvoovv/djeo-jenks/blob/master/main.js) (buggy),
@@ -152,4 +152,4 @@ function jenks(data, n_classes) {
   // extract n_classes out of the computed matrices
   return breaks(data, lower_class_limits, n_classes);
 
-}
+}*/
