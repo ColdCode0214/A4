@@ -11,9 +11,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const tip = d3.tip()
     .attr('class', 'd3-tip')
     .offset([-10, 0])
+    /*.html(d => `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>
+                <strong>The latest Rate: </strong><span class='details'>${format(d[colorVariable])}%</span><br>
+                <strong>Known Tax Heaven: </strong><span class='details'>${d[taxHeaven]? 'Yes' : 'No/Unknown'}</span>`);*/
     .html(d => `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>
-                <strong>2020 Tax Rate: </strong><span class='details'>${format(d[colorVariable])}%</span><br>
-                <strong>Known Tax Heaven: </strong><span class='details'>${d[taxHeaven]? 'Yes' : 'No/Unknown'}</span>`);
+                <strong>The latest Rate: </strong><span class='details'>${format(d[colorVariable])}%</span><br>`);
 
   const margin = {
     top: 0,
